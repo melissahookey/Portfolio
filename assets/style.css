@@ -5,7 +5,8 @@
 :root {
     --link-color: #013a63;
     --border-color: #472d30;
-    --hover-color: #ff7d00;
+    --hover-color: #85182a;
+    --nav-color: #ffdc5e;
 }
 
 body{
@@ -30,15 +31,21 @@ h1{
 
 header p{
     justify-content: center;
+    align-items: center;
 }
 
 .personal{
-    padding:30px;
+    padding: 1px;
 }
 
 
 h2{
 
+}
+
+.personal p {
+    padding-left:60px;
+    padding-right:60px;
 }
 
 .applications{
@@ -79,7 +86,7 @@ h3{
 
 .topnav{
     border:1px solid var(--border-color);
-    background-color: var(--hover-color);
+    background-color: var(--nav-color);
     display: flex;
     flex-direction: row-reverse;
     position: fixed;
@@ -108,7 +115,7 @@ h3{
 }
 
 .topnav a:hover {
-    color: #85182a;
+    color: var(--hover-color);
 }
 
 .applications{
@@ -152,7 +159,7 @@ footer ul{
 
 .contact{
     border:1px solid var(--border-color);
-    background-color: var(--hover-color);
+    background-color: var(--nav-color);
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
