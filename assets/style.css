@@ -1,0 +1,188 @@
+*{
+    background: #edf2fb;
+}
+
+:root {
+    --link-color: #013a63;
+    --border-color: #472d30;
+    --hover-color: #ff7d00;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+
+h1{
+    justify-content: left;
+    color: #472d30;
+    padding-top: 20px;
+
+}
+
+header p{
+    justify-content: center;
+}
+
+.personal{
+    padding:30px;
+}
+
+
+h2{
+
+}
+
+.applications{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+}
+
+.app1{
+    min-width: 700px;
+}
+
+.app2{
+    min-width: 700px;
+
+}
+
+.app3{
+    min-width: 700px;
+
+}
+
+.app4{
+    min-width: 700px;
+
+}
+
+.app5{
+    min-width: 700px;
+
+}
+
+h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topnav{
+    border:1px solid var(--border-color);
+    background-color: var(--hover-color);
+    display: flex;
+    flex-direction: row-reverse;
+    position: fixed;
+    padding-right: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.topnav ul{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    min-width: 400px;
+    width: 50%;
+
+}
+
+.topnav li{
+    list-style: none;
+}
+
+.topnav a{
+    color: var(--link-color)
+}
+
+.topnav a:hover {
+    color: #85182a;
+}
+
+.applications{
+    display: flex;
+    flex-direction: row;
+}
+
+h3 {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+footer{
+    flex-direction: row-reverse;
+    position: fixed;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    height: 100px;
+}
+
+footer h4{
+    display:flex;
+    justify-content:flex-start;
+    position: relative;
+}
+
+footer ul{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    min-width: 400px;
+    width: 50%;
+}
+
+.contact{
+    border:1px solid var(--border-color);
+    background-color: var(--hover-color);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    position: fixed;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+
+}
+
+.contact ul {
+    align-items: center;
+}
+
+.contact li {
+    list-style: none;
+}
+
+.contact a:hover{
+    color: var(--hover-color)
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+    
+    main {
+        max-width: 1200px;
+    }
+}
