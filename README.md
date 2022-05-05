@@ -17,8 +17,8 @@
   No installation needed.
 
   ## Screenshot
-  ![screenshot of portfolio](./src./assets/images/full.png)
-  ![screenshot of portfolio](./src./assets/images/narrow.png)
+  ![screenshot of portfolio](/assets/images/full.png)
+  ![screenshot of portfolio](/assets/images/narrow.png)
 
   ## License
   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
