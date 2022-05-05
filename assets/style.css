@@ -1,254 +1,204 @@
-*{
-    background: #edf2fb;
-    font-family: 'Roboto Slab', 'Roboto', serif;
-}
-
 :root {
-    --link-color: #013a63;
-    --border-color: #472d30;
-    --hover-color: #85182a;
-    --nav-color: #ffdc5e;
 }
 
-body{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    line-height: 1.3;
-    margin: 0;
+/* universal styling */
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: lightgray;
 }
 
-header{
+body {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+
+header {
+    padding-left: 30px;
+    max-height: 5%;
+    width: 100%;
+}
+
+.img-thumbnail {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+h1 {
+    font-size: 50px;
+    padding-top: 0;
+    padding-left: 100px;
+}
+
+.topnav {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    text-align: right;
-    padding: 5%;
     height: 100px;
-}
-
-h1{
-    display: block;
-    justify-content: left;
-    color: #472d30;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-
-.topnav{
-    background-color: var(--nav-color);
-    display: flex;
-    flex-direction: row-reverse;
-    position: fixed;
-    padding-right: 3%;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-}
-
-.topnav ul{
-    background-color: var(--nav-color);
-    display:flex;
     justify-content: flex-end;
-    align-items:center;
-    min-width: 400px;
-    width: 50%;
-
+    margin: 10px;
+    padding-left: 530px;
+    padding-top: 0;
 }
 
-.topnav ul li{
-    background-color: var(--nav-color);
-    list-style: none;
-    padding-right: 10px;
-}
-
-.topnav a{
-    background-color: var(--nav-color);
-    color: var(--link-color)
-}
-
-.topnav a:hover {
-    color: var(--hover-color);
-}
-
-.container{
+nav ul {
     display: flex;
-    flex-direction: column;
-    margin: 0;
-    width: 100%;
+    list-style: none;
+    justify-content: flex-end;
 }
 
-/* about me section */
-.myself{
-    margin: 0;
-    overflow: hidden;
-    height: 200px;
-    width: 100%;
-    object-fit: cover;
-    margin-bottom: 20px;
+nav li {
+    display: flex;
+    font-size: 30px;
+    padding-right: 20px;
+    justify-content: flex-end;
+}
+/* end of header */
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
-.myself img{
+/* left column */
+aside {
+    justify-content: flex-start;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+h2 {
+    font-size: 50px;
+    padding: 60px 10px;
+}
+
+/* right column */
+.container-fluid-right-side {
+    padding-right: 20px;
+}
+
+.about-p {
+    font-size: 20px;
+    padding-right: 15px;
+    margin: 5px;
+    padding-bottom: 20px;
+}
+
+/* Project section */
+.project-section {
+    display: flex;
+    width: 80%;
+}
+
+.main-project {
+    display: flex;
+    flex: 1 1 960px;
     max-width: 100%;
-    width: 200em;
-    max-height: 500px;
-    height: 100%;
-    object-fit: cover;
-    background-size: cover;
-    background-position: center;
+    max-height: 100%;
+}
+
+.text-links {
+    position: absolute;
+    font-size: 15px;
+}
+
+.image-1 {
+    flex: 1 1 100%;
     overflow: hidden;
-
+    border: soild 3px darkgray;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.personal{
-    padding: 1px;
+.text-links {
+    font-size: 30px;
 }
 
-
-h2{
-
-}
-
-.personal p {
-    padding-left:60px;
-    padding-right:60px;
-}
-
-/* projects section */
-
-h3{
+.project {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex: 1 1 480px;
+    max-width: 50%;
+    max-height: 50%;
+    margin: 15px 0px 0px 15px;
 }
 
-.applications{
+.image-2, .image-3, .image-4, .image-5 {
     display: flex;
+    flex: 1 1 1280px;
+    object-fit: cover;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 480px;
     flex-wrap: wrap;
     flex-direction: row;
-    flex-flow: row wrap;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    height: 3%;
     justify-content: center;
-    padding: 5px;
-    position: relative;
-    max-width: 300px;
-    max-height: 300px;
-    object-fit: cover;
-}
-
-img.big_image{
-    max-width: 300px;
-    max-height: 300px;
-    display: flex;
     flex-wrap: wrap;
-    object-fit: cover;
-}
-
-#app1{
-
-}
-
-img.reg_image{
-    max-width: 300px;
-    max-height: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    object-fit: cover;
-}
-
-#app2 {
-    justify-content: flex-start;
-}
-
-img.reg_image {
-    max-width: 300px;
-    max-height: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    object-fit: cover;
-}
-
-#app3{
-    justify-content: flex-end;
-    margin-right: 0;
-
-}
-
-img.reg_image {
-    max-width: 300px;
-    max-height: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    object-fit: cover;
-
-}
-
-#app4 {
-    justify-content: flex-start;
-}
-
-.reg_image img{
-    max-width: 700px;
-    max-height: 700px;
-    display: flex;
-    flex-wrap: wrap;
-    object-fit: cover;
-}
-
-#app5 {
-    justify-content: flex-end;
-    margin-right: 0;
-}
-
-/* contact section */
-.contact{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    float: left;
-    align-items:center;
-    padding: 10px;
+    flex-direction: row;
+    width: 100%;
     bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-    height: 100px;
 }
 
-.contact h4{
-    display:flex;
-    justify-content:left;
+.bottomnav {
+    display: flex;
+    position: fixed;
+    justify-content: flex-start;
+    width: 100%;
+    bottom: 0;
+}
+
+.bottomnav ul {
+    display: flex;
     position: relative;
-}
-
-.contact ul{
-    display:flex;
-    justify-content: space-between;
-    align-items:center;
-    min-width: 400px;
-    width: 50%;
-}
-
-.contact li {
     list-style: none;
+    font-size: 20px;
 }
 
-.contact a:hover{
-    color: var(--hover-color)
+.bottomnav li {
+    display: flex;
+    padding: 5px;    
 }
 
-
-@media screen and (max-width: 768px) {
-    header {
+/* media queries */
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .topnav {
+        display: flex;
         flex-direction: column;
+        justify-content: center;
     }
-    
-    main {
-        max-width: 1200px;
+    .col-md-4 {
+        display: none;
+        visibility: hidden;
+    }
+    .col-md-8 {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        justify-items: center;
+    }
+    .project-section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .image-2, .image-3, .image-4, .image-5 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    footer {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        bottom: 0;
     }
 }
+

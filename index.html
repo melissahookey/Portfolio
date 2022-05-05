@@ -4,76 +4,70 @@
     <title>Portfolio</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
   </head>
 
   <body>
-      <header>
+      <header class="row">
+          <section class="container-fluid-top">
+          <img src="./assets/images/avataaars.png" class="img-thumbnail" alt="avatar profile thumbnail">
           <h1>Melissa Hookey</h1>
             <nav class="topnav">
                 <ul>
-                    <li><a href="#about_me">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact_me">Contact</a></li>
+                    <li><a class="navlinks" href="#about_me">About Me</a></li>
+                    <li><a class="navlinks" href="#projects">Projects</a></li>
+                    <li><a class="navlinks" href="#contact_me">Contact</a></li>
                 </ul>
             </nav>
-        </header>
-
-      <main class="container">
-          <figure class="myself">
-              <img src="./assets/images/self.jpg" alt="Me smiling">
-          </figure>
-          <div class="personal">
-              <h2 id="about_me">About Me</h2>
-                <p>Feta cheese slices when the cheese comes out everybody's happy. Goat boursin feta danish fontina bocconcini melted cheese fromage macaroni cheese. Say cheese bocconcini cheese and wine gouda port-salut airedale smelly cheese taleggio. Monterey jack the big cheese the big cheese queso goat brie cheese slices cheese triangles. Say cheese babybel.</p>
-
-                <p>Caerphilly cheese strings stinking bishop. Ricotta halloumi say cheese hard cheese everyone loves fromage bavarian bergkase cheesecake. Cheese strings cheesecake dolcelatte edam who moved my cheese bocconcini hard cheese roquefort. Camembert de normandie cheeseburger squirty cheese.</p>
-          </div>
-
-          <div class="applications">
-              <h3 id="projects">Projects</h3>
-            <section class="application_1" id="app1">
-                <header>Application 1</header>
-                    <img class="big_image" src="./assets/images/image1.jpg" alt="camera" />
-
-            </section>
-
-            <section class="application_2" id="app2">
-                <header>Application 2</header>
-                    <img class="reg_image" src="./assets/images/image2.jpg" alt="camera" />
-
-            </section>
-
-            <section class="application_3" id="app3">
-                <header>Application 3</header>
-                    <img class="reg_image" src="./assets/images/image3.jpg" alt="camera" />
-
-            </section>
-
-            <section class="application_4" id="app4">
-                <header>Application 4</header>
-                    <img class="reg_image" src="./assets/images/image4.jpg" alt="camera" />
-
-            </section>
-
-            <section class="application_5" id="app5">
-                <header>Application 5</header>
-                    <img class="reg_image" src="./assets/images/image5.jpg" alt="camera" />
-
-            </section>
-
-         </div>
-
-      <section class="contact">
-        <h4 id="contact_me">Contact</h4>
-            <nav>
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/melissahookey/" target="_blank">LinkedIn</a></li>
-                    <li><a href="https://github.com/melissahookey" target="_blank">GitHub</a></li>
-                    <li><a href="mailto:melissah315@gmail.com">Email</a></li>
-            </ul>
         </section>
-
-        </main> 
+        </header>
+      <main class="row">
+          <div class="col-md-4">
+              <section class="conatiner-fluid-left-side">
+                  <aside class="aside-left">
+                      <h2>About Me</h2>
+                      <h2>Projects</h2>
+                      <h2>Contact</h2>
+                  </aside>
+              </section>
+          </div>
+          <div class="col-md-8">
+              <section class="container-fluid-right-side">
+                <div class="about-p">
+                    <p>Swiss melted cheese dolcelatte. Macaroni cheese macaroni cheese port-salut cheesy feet cream cheese manchego halloumi goat. Cheese slices taleggio cow airedale jarlsberg cheese and biscuits melted cheese lancashire. When the cheese comes out everybody's happy.</p>
+                    <p>Airedale boursin cheddar. Cottage cheese cheese and biscuits cheese and biscuits pecorino edam feta lancashire stilton. Gouda hard cheese cheesecake cheesy grin cheesy grin melted cheese cheeseburger cheese on toast. Edam cheddar cheesecake manchego jarlsberg emmental pepper jack manchego. Cheesy feet manchego roquefort swiss.</p>
+                </div> 
+                <div class="project-section">
+                    <a class="main-project" href="#image"><div class="text-links">Project 1</div>
+                        <img class="image-1" src="./assets/images/image4.jpg" alt="alt text">
+                    </a>
+                    <a class="project" href="#image"><div class="text-links">Project 2</div>
+                        <img class="image-2" src="./assets/images/image3.jpg" alt="alt text">
+                    </a>
+                    <a class="project" href="#image"><div class="text-links">Project 3</div>
+                        <img class="image-3" src="./assets/images/image1.jpg" alt="alt text">
+                    </a>
+                    <a class="project" href="#image"><div class="text-links">Project 4</div>
+                        <img class="image-4" src="./assets/images/image2.jpg" alt="alt text">
+                    </a>
+                    <a class="project" href="#image"><div class="text-links">Project 5</div>
+                        <img class="image-5" src="./assets/images/image5.jpg" alt="alt text">
+                    </a>
+                </div>
+              </section>
+          </div>
+    </main> 
+        <footer class="row">
+            <section class="contact">
+                <nav class="bottomnav">
+                    <ul>
+                        <li class="text-center"><a href="https://www.linkedin.com/in/melissahookey/" target="_blank">LinkedIn</a></li>
+                        <li class="text-center"><a href="https://github.com/melissahookey" target="_blank">GitHub</a></li>
+                        <li class="text-center"><a href="mailto:melissah315@gmail.com">Email</a></li>
+                </ul>
+            </section>
+        </footer>   
     </body>
   </html>
