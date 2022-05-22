@@ -5,69 +5,119 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
   </head>
-
   <body>
-      <header class="row">
-          <section class="container-fluid-top">
-            <img src="./assets/images/avataaars.png" class="img-thumbnail" alt="avatar profile thumbnail">
-            <h1>Melissa Hookey</h1>
-                <nav class="topnav">
-                    <ul>
-                        <li><a class="navlinks" href="#about_me">About Me</a></li>
-                        <li><a class="navlinks" href="#projects">Projects</a></li>
-                        <li><a class="navlinks" href="#contact_me">Contact</a></li>
-                    </ul>
-                </nav>
-        </section>
-        </header>
-      <main class="row">
-          <div class="col-md-4">
-              <section class="conatiner-fluid-left-side">
-                  <aside class="aside-left">
-                      <h2>About Me</h2>
-                      <h2>Projects</h2>
-                      <h2>Contact</h2>
-                  </aside>
-              </section>
-          </div>
-          <div class="col-md-8">
-              <section class="container-fluid-right-side">
-                <div class="about-p">
-                    <p>Swiss melted cheese dolcelatte. Macaroni cheese macaroni cheese port-salut cheesy feet cream cheese manchego halloumi goat. Cheese slices taleggio cow airedale jarlsberg cheese and biscuits melted cheese lancashire. When the cheese comes out everybody's happy.</p>
-                    <p>Airedale boursin cheddar. Cottage cheese cheese and biscuits cheese and biscuits pecorino edam feta lancashire stilton. Gouda hard cheese cheesecake cheesy grin cheesy grin melted cheese cheeseburger cheese on toast. Edam cheddar cheesecake manchego jarlsberg emmental pepper jack manchego. Cheesy feet manchego roquefort swiss.</p>
-                </div> 
-                <div class="project-section">
-                    <a class="main-project" href="#image"><div class="text-links">Project 1</div>
-                        <img class="image-1" src="./assets/images/image4.jpg" alt="alt text">
-                    </a>
-                    <a class="project" href="#image"><div class="text-links">Project 2</div>
-                        <img class="image-2" src="./assets/images/image3.jpg" alt="alt text">
-                    </a>
-                    <a class="project" href="#image"><div class="text-links">Project 3</div>
-                        <img class="image-3" src="./assets/images/image1.jpg" alt="alt text">
-                    </a>
-                    <a class="project" href="#image"><div class="text-links">Project 4</div>
-                        <img class="image-4" src="./assets/images/image2.jpg" alt="alt text">
-                    </a>
-                    <a class="project" href="#image"><div class="text-links">Project 5</div>
-                        <img class="image-5" src="./assets/images/image5.jpg" alt="alt text">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <!-- add icon -->
+        <a class="navbar-brand" href="#">icon</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/#about">About</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#work">Work</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/#contact">Contact</a>
+            </li>
+          </ul>
+          <a class="resume-button" href="/resume.pdf" target="_blank">Resume</a>
+        </div>
+    </nav>
+    <br><br><br><br><br><br><br>
+
+    <section class="page-section intro" id="intro">
+        <div class="container">
+                <h1>Hi, my name is</h1>
+                <h3>Melissa Hookey</h3>
+                <h1 id="line3">I'm a developer and designer</h1>
+                <p>insert bio</p>
+
+        </div>
+    <section class="page-section about" id="about">
+        <div class="container">
+            <h2 class="page-section-heading text-left text-uppercase">About</h2>
+            <article class="row single-post mt-5 no-gutters">
+                <div class="col-md-6">
+                    <div class="image-wrapper float-left pr-3">
+                        <img src="./img.png" alt="Image of myself">
+                    </div>
+                    <div class="single-post-content-wrapper p-3">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ad, ex eaque fuga minus reprehenderit asperiores earum incidunt. Possimus maiores dolores voluptatum enim soluta omnis debitis quam ab nemo necessitatibus.
+                        <br><br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ad, ex eaque fuga minus reprehenderit asperiores earum incidunt. Possimus maiores dolores voluptatum enim soluta omnis debitis quam ab nemo necessitatibus.
+                    </div>
+                </div>
+            </article>
+        </div>
+            
+    </section>
+    </section>
+    <section class="page-section work" id="work">
+        <div class="container">
+            <h2 class="page-section-heading text-left text-uppercase">Work</h2>
+            <div class="row justify-content-center">
+                <div class="col-6" id="description-1">
+                    <h4>Project 1</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ad, ex eaque fuga minus reprehenderit asperiores earum incidunt. Possimus maiores dolores voluptatum enim soluta omnis debitis quam ab nemo necessitatibus.</p>
+                </div>
+                <div class="col-6" id="work-1">
+                    <a href="https://melissahookey.github.io/Project-1/">
+                        <img src="image.png" alt="An image">
+                    </a> 
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-6" id="work-2">
+                    <a href="https://melissahookey.github.io/04-HW-Quiz/">
+                        <img src="image.png" alt="An image">
                     </a>
                 </div>
-              </section>
-          </div>
-    </main> 
-        <footer class="row">
-            <section class="container-fluid-bottom">
-                <nav class="bottomnav">
-                    <ul>
-                        <li class="text-center"><a href="https://www.linkedin.com/in/melissahookey/" target="_blank">LinkedIn</a></li>
-                        <li class="text-center"><a href="https://github.com/melissahookey" target="_blank">GitHub</a></li>
-                        <li class="text-center"><a href="mailto:melissah315@gmail.com">Email</a></li>
-                </ul>
-            </section>
-        </footer>   
-    </body>
-  </html>
+                <div class="col-6" id="description-2">
+                    <h4>04-HW-Quiz</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ad, ex eaque fuga minus reprehenderit asperiores earum incidunt. Possimus maiores dolores voluptatum enim soluta omnis debitis quam ab nemo necessitatibus.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-6" id="description-3">
+                    <h4>03-HW-Password-Generator</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ad, ex eaque fuga minus reprehenderit asperiores earum incidunt. Possimus maiores dolores voluptatum enim soluta omnis debitis quam ab nemo necessitatibus.</p>
+                </div>
+                <div class="col-6" id="work-3">
+                    <a href="https://melissahookey.github.io/03-HW-Password-Generator/">
+                        <img src="image.png" alt="An image">
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section class="page-section contact" id="contact">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase">Get in Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <ul id="contact-list">
+                        <li class="text-center" id="contact-link"><a href="https://www.linkedin.com/in/melissahookey/" target="_blank">LinkedIn</a></li>
+                        <li class="text-center" id="contact-link"><a href="https://github.com/melissahookey" target="_blank">GitHub</a></li>
+                        <li class="text-center" id="contact-link"><a href="mailto:melissah315@gmail.com">Email</a></li>
+                        <li class="text-center" id="contact-link"><a href="resume.pdf" target="_blank">Resume</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        
+    </section>
+      
+
+  </body>
+</html>
