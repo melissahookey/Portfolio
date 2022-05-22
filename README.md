@@ -11,7 +11,7 @@
   5. [Contact](#contact)
 
   ## Description
-  Here is my professional portfolio that is I am continuing to update.
+  Here is my professional portfolio that I am continuing to update.
   
   ## Screenshots
   ![screenshot of portfolio](image.png) 
