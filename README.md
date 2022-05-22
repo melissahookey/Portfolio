@@ -1,34 +1,22 @@
-# 02-HW-Portfolio
+# Portfolio
 
- ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
+ ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
+ ![badge](https://img.shields.io/github/languages/count/melissahookey/02-HW-Portfolio)
+
+   ## Table of Contents
+  1. [Description](#description)
+  2. [Technologies](#technologies) 
+  3. [Screenshots](#screenshots)
+  4. [Demo](#demo)
+  5. [Contact](#contact)
 
   ## Description
- A professional portfolio for myself. 
+  Here is my professional portfolio that is I am continuing to update.
+  
+  ## Screenshots
+  ![screenshot of portfolio](image.png) 
+  
+  ## Demo
 
-  ## Table of Contents
-  - [Description](#description)
-  - [Installation](#installation)
-  - [Screenshot](#screenshot)
-  - [License](#lincense)
-  - [Contributing](#credits)
-  - [Questions](#questions)
 
-  ## Installation
-  No installation needed.
-
-  ## Screenshot
-  ![screenshot of portfolio](/assets/images/full.png)
-  ![screenshot of portfolio](/assets/images/narrow.png)
-
-  ## License
-  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
-  <br>
-  MIT
-
-  ## Contributing
-  No other contributors
-
-  ## Questions
-  Find me on GitHub: [melissahookey](https://github.com/melissahookey)
-  <br>
-  Email me with any questions: melissah315@gmail.com
+  ## Contact
