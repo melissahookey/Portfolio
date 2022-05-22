@@ -20,5 +20,5 @@
 
 
   ## Contact
-  Find me on GitHub: melissahookey
-  Email me with any questions: melissah315@gmail.com
+  * Find me on GitHub: melissahookey
+  * Email me with any questions: melissah315@gmail.com
