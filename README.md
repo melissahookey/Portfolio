@@ -12,7 +12,7 @@
   Here is my professional portfolio that I am continuing to update.
   
   ## Screenshots
-  ![screenshot of portfolio](image.png) 
+  ![screenshot of portfolio](./assets/1.png) 
   
   ## Contact
   * Find me on GitHub: melissahookey
