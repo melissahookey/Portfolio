@@ -1,6 +1,7 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { Envelope, Linkedin } from "react-bootstrap-icons";
-import Pdf from "../documents/Resume.pdf";
+import Pdf from "../../documents/Resume.pdf";
+
 export const NavBar = () => {
   return (
     <Navbar bg="dark" variant="dark">

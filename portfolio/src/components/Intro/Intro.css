@@ -1,0 +1,6 @@
+p {
+  padding-top: 3rem;
+  color: blueviolet;
+}
+
+@import "bootstrap/dist/css/bootstrap.css";

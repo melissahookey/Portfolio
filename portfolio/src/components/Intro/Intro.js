@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Typed from "typed.js";
 export const Intro = () => {
   const el = useRef(null);
-
+  // think of more to add to the array lol
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: ["web developer", "creative", "graphic desinger"], // Strings to display
