@@ -1,0 +1,23 @@
+TO DO
+- decide on color palette - dark and light mode
+- add personality: doodles?
+- styling for all components
+- pick a font or two
+- add footer for copyright
+- spacing: projects show when user scrolls down
+- maybe move about above projects? 
+
+Projects.js
+- add breakpoints for projects - 3 cards to 1 at md
+- add link to project when onclick for image
+- read more button - add thought process and steps taken for each project (case study?)
+
+Navbar.js
+- add email popup 
+- add link to about or delete depending on layout
+- breakpoint: change to burger at md and name switch to initials?
+- add github link with icon?
+
+About.js
+- add padding
+- could add blerb about edu

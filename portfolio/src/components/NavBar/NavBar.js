@@ -15,7 +15,10 @@ export const NavBar = () => {
           <Nav.Link href="#email">
             <Envelope></Envelope>
           </Nav.Link>
-          <Nav.Link href="https://www.linkedin.com/in/melissahookey/">
+          <Nav.Link
+            href="https://www.linkedin.com/in/melissahookey/"
+            target="_blank"
+          >
             <Linkedin></Linkedin>
           </Nav.Link>
         </Nav>
