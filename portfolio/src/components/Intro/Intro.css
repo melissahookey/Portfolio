@@ -1,6 +1,5 @@
-p {
-  padding-top: 3rem;
-  color: blueviolet;
+.introP {
+  padding: 2rem;
+  color: #fff;
+  font-size: 30px;
 }
-
-@import "bootstrap/dist/css/bootstrap.css";

@@ -1,10 +1,12 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
-import { Envelope, Linkedin } from "react-bootstrap-icons";
+import { Envelope, Linkedin, Github } from "react-bootstrap-icons";
 import Pdf from "../../documents/Resume.pdf";
+import "../NavBar/NavBar.css";
 
 export const NavBar = () => {
   return (
-    <Navbar bg="dark" variant="dark">
+    // bg="dark" variant="dark"
+    <Navbar Id="navbar">
       <Container>
         <Navbar.Brand href="#home">Melissa Hookey</Navbar.Brand>
         <Nav className="justify-content-end">
@@ -19,6 +21,9 @@ export const NavBar = () => {
             href="https://www.linkedin.com/in/melissahookey/"
             target="_blank"
           >
+            <Github></Github>
+          </Nav.Link>
+          <Nav.Link href="https://github.com/melissahookey" target="_blank">
             <Linkedin></Linkedin>
           </Nav.Link>
         </Nav>

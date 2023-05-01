@@ -1,4 +1,4 @@
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 export const About = () => {
   return (
     <Container fluid>
@@ -7,13 +7,17 @@ export const About = () => {
           {/* add img next to first p? */}
           <p>
             My name is Melissa Hookey and I am a fullstack web developer who
-            specializes in front end development. I'm an ATX transplant from
-            California.
+            specializes in front end development. I'm an Austin, Texas
+            transplant from San Francisco, California. I obtained my Bachelors
+            of Fine Arts from Washington State University and a MERN Fullstack
+            Certificate form the University of Texas.
           </p>
           <p>
-            I love being creative and continously expanding my knowledge. In my
-            free time I enjoy crocheting, exploring new resturants and spending
-            time with friends and family.
+            I am currently a teaching assistant for the University of Texas and
+            have the privilege of teaching upocoming web developers! I love
+            being creative, continously expanding my knowledge, and
+            collaborating with others. In my free time I enjoy crocheting,
+            exploring new resturants and spending time with friends and family.
           </p>
         </Col>
       </Row>

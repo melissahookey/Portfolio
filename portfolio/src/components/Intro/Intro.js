@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Typed from "typed.js";
+import "../Intro/Intro.css";
 export const Intro = () => {
   const el = useRef(null);
   // think of more to add to the array lol
@@ -27,7 +28,7 @@ export const Intro = () => {
     <Container fluid>
       <Row>
         <Col>
-          <p>
+          <p class="introP">
             {" "}
             Hello, I'm a <br /> <span ref={el}></span>
           </p>

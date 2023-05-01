@@ -1,4 +1,5 @@
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import "../Projects/Projects.css";
 export const Projects = () => {
   return (
     <Container>
@@ -13,6 +14,7 @@ export const Projects = () => {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
+              <Button class="btn rounded-pill">Read More</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -24,6 +26,7 @@ export const Projects = () => {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
+              <Button class="btn rounded-pill">Read More</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -35,6 +38,7 @@ export const Projects = () => {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
+              <Button class="btn rounded-pill">Read More</Button>
             </Card.Body>
           </Card>
         </Col>

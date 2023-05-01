@@ -16,8 +16,12 @@ Navbar.js
 - add email popup 
 - add link to about or delete depending on layout
 - breakpoint: change to burger at md and name switch to initials?
-- add github link with icon?
+
 
 About.js
 - add padding
 - could add blerb about edu
+
+
+DONE
+- add github link with icon
