@@ -14,7 +14,7 @@ export const NavBar = () => {
           <Nav.Link href={Pdf} target="_blank">
             Resume
           </Nav.Link>
-          <Nav.Link href="#email">
+          <Nav.Link id="emailBtn">
             <Envelope></Envelope>
           </Nav.Link>
           <Nav.Link

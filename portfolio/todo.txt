@@ -4,24 +4,31 @@ TO DO
 - styling for all components
 - pick a font or two
 - add footer for copyright
-- spacing: projects show when user scrolls down
 - maybe move about above projects? 
 
 Projects.js
 - add breakpoints for projects - 3 cards to 1 at md
 - add link to project when onclick for image
-- read more button - add thought process and steps taken for each project (case study?)
+- add project name on card hover - will need to mess with opacity
+- link read more button - add thought process and steps taken for each project (case study?)
 
 Navbar.js
 - add email popup 
 - add link to about or delete depending on layout
 - breakpoint: change to burger at md and name switch to initials?
 
-
 About.js
-- add padding
-- could add blerb about edu
+- change padding to less (4rem?) when mobile
 
+Email.js
+- style and create form for email submission
+- add function to open the form on click for navbar button
+- FORM - add button to exit
+
+======================================================================================================================================
 
 DONE
 - add github link with icon
+- add padding
+- spacing: projects show when user scrolls down
+- could add blerb about edu
