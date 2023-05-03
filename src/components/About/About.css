@@ -4,5 +4,16 @@
 
 .aboutP {
   color: #fff;
-  padding: 1rem 10rem;
+}
+
+@media (max-width: 768px) {
+  .aboutP {
+    text-align: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .aboutP {
+    padding: 1rem 3rem;
+  }
 }

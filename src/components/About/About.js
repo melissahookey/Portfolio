@@ -5,7 +5,7 @@ export const About = () => {
     <Container fluid>
       <Row>
         <Col>
-          <div id="allAbout">
+          <div className="mx-xs-1" id="allAbout">
             {/* add img next to first p? */}
             <p class="aboutP">
               My name is Melissa Hookey and I am a fullstack web developer who

@@ -4,9 +4,9 @@ import FillerImg from "../Images/filler.jpg";
 
 export const Projects = () => {
   return (
-    <Container>
+    <Container fluid>
       <Row>
-        <Col>
+        <Col sm={12} md={4}>
           <Card>
             {/* add project links to imgs */}
             {/* projects to add - weather app, fitter, and something else */}
@@ -22,7 +22,7 @@ export const Projects = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col sm={12} md={4}>
           <Card>
             <Card.Img variant="top" src={FillerImg} />
             <Card.Body>
@@ -36,7 +36,7 @@ export const Projects = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col sm={12} md={4}>
           <Card>
             <Card.Img variant="top" src={FillerImg} />
             <Card.Body>
