@@ -17,7 +17,7 @@ Navbar.js
 - breakpoint: change to burger at md and name switch to initials?
 
 About.js
-- change padding to less (4rem?) when mobile
+
 
 Email.js
 - style and create form for email submission
@@ -32,3 +32,4 @@ DONE
 - spacing: projects show when user scrolls down
 - could add blerb about edu
 - add breakpoints for projects - 3 cards to 1 at md
+- change padding to less (4rem?) when mobile

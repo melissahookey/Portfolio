@@ -8,8 +8,6 @@ export const Projects = () => {
       <Row>
         <Col sm={12} md={4}>
           <Card>
-            {/* add project links to imgs */}
-            {/* projects to add - weather app, fitter, and something else */}
             <Card.Img variant="top" src={FillerImg} />
             <Card.Body>
               <Card.Text>

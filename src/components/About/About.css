@@ -9,11 +9,12 @@
 @media (max-width: 768px) {
   .aboutP {
     text-align: left;
+    padding: 0.5rem 1rem;
   }
 }
 
 @media (min-width: 768px) {
   .aboutP {
-    padding: 1rem 3rem;
+    padding: 1rem 5rem;
   }
 }

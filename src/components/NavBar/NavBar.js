@@ -17,13 +17,13 @@ export const NavBar = () => {
           <Nav.Link id="emailBtn">
             <Envelope></Envelope>
           </Nav.Link>
+          <Nav.Link href="https://github.com/melissahookey" target="_blank">
+            <Github></Github>
+          </Nav.Link>
           <Nav.Link
             href="https://www.linkedin.com/in/melissahookey/"
             target="_blank"
           >
-            <Github></Github>
-          </Nav.Link>
-          <Nav.Link href="https://github.com/melissahookey" target="_blank">
             <Linkedin></Linkedin>
           </Nav.Link>
         </Nav>
