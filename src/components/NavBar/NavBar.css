@@ -6,3 +6,7 @@
 .navbar-brand {
   color: #fff;
 }
+
+.form {
+  display: none;
+}

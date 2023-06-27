@@ -8,8 +8,16 @@
   background-color: #fff;
 }
 
+.card:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 1px 10px 20px rgba(30, 30, 30, 0.8);
+  top: -4px;
+}
+
 .card-img-top {
   border: none;
+  height: 30vh;
+  object-fit: cover;
 }
 
 .card-text {
