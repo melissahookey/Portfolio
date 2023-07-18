@@ -15,10 +15,17 @@ export const Projects = () => {
               <Card.Text>Fitter</Card.Text>
               <Button
                 class="btn rounded"
-                href="https://github.com/yummy314159265/Fitter"
+                href="https://github.com/melissahookey/Fitter"
                 target="_blank"
               >
-                Read More
+                Repository
+              </Button>
+              <Button
+                class="btn rounded"
+                href="https://fitter.onrender.com"
+                target="_blank"
+              >
+                Deployment
               </Button>
             </Card.Body>
           </Card>
@@ -33,7 +40,7 @@ export const Projects = () => {
                 href="https://github.com/AJLosey/trivia-database"
                 target="_blank"
               >
-                Read More
+                Repository
               </Button>
             </Card.Body>
           </Card>
@@ -48,7 +55,14 @@ export const Projects = () => {
                 href="https://github.com/melissahookey/06-HW-Weather-Dashboard"
                 target="_blank"
               >
-                Read More
+                Repository
+              </Button>
+              <Button
+                class="btn rounded"
+                href="https://melissahookey.github.io/06-HW-Weather-Dashboard/"
+                target="_blank"
+              >
+                Deployment
               </Button>
             </Card.Body>
           </Card>
