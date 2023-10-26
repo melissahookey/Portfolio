@@ -16,7 +16,7 @@ export const About = () => {
             </p>
             <p class="aboutP">
               I am currently a teaching assistant for the University of Texas
-              and have the privilege of teaching upocoming web developers! I
+              and have the privilege of teaching up and coming web developers! I
               love being creative, continously expanding my knowledge, and
               collaborating with others. In my free time I enjoy crocheting,
               exploring new resturants and spending time with friends and

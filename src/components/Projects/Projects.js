@@ -18,7 +18,7 @@ export const Projects = () => {
                 href="https://github.com/melissahookey/Fitter"
                 target="_blank"
               >
-                Repository
+                Github
               </Button>
               <Button
                 class="btn rounded"
@@ -40,7 +40,7 @@ export const Projects = () => {
                 href="https://github.com/AJLosey/trivia-database"
                 target="_blank"
               >
-                Repository
+                Github
               </Button>
             </Card.Body>
           </Card>
@@ -55,7 +55,7 @@ export const Projects = () => {
                 href="https://github.com/melissahookey/06-HW-Weather-Dashboard"
                 target="_blank"
               >
-                Repository
+                Github
               </Button>
               <Button
                 class="btn rounded"
