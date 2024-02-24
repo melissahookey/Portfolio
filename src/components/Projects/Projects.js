@@ -1,7 +1,7 @@
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import "../Projects/Projects.css";
 import fitterImg from "../../images/fitter.png";
-import triviaImg from "../../images/trivia.png";
+import gameImg from "../../images/game.png";
 import weatherImg from "../../images/weather.png";
 
 export const Projects = () => {
@@ -32,15 +32,22 @@ export const Projects = () => {
         </Col>
         <Col sm={12} md={4}>
           <Card>
-            <Card.Img variant="top" src={triviaImg} href="#" target="_blank" />
+            <Card.Img variant="top" src={gameImg} href="#" target="_blank" />
             <Card.Body>
-              <Card.Text>Endless Trivia</Card.Text>
+              <Card.Text>SpaceCrash</Card.Text>
               <Button
                 class="btn rounded"
-                href="https://github.com/AJLosey/trivia-database"
+                href="https://github.com/melissahookey/SpaceCrash"
                 target="_blank"
               >
                 Github
+              </Button>
+              <Button
+                class="btn rounded"
+                href="https://melissahookey.itch.io/spacecrash"
+                target="_blank"
+              >
+                itch.io
               </Button>
             </Card.Body>
           </Card>
